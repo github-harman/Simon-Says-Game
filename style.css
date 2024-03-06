@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    text-align: center;
+    cursor: default;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.crimson{
+    background-color: crimson;
+}
+
+.cyan{
+    background-color: darkcyan;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.purple{
+    background-color: rebeccapurple;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: black;
+}
